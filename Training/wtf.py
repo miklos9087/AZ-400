@@ -1,14 +1,14 @@
-# My Vmware data
+text = "Python programming is fun and powerful!"
 
-Vmware_data = {
-    "hostname":"ExSiV8",
-    "Ip Address":{"server1":"172.16.1.5","server2":"172.16.1.4"},
-    "Username":"root",
-    "Password":"Rambo123!",
+Python = True
+powerful = True
 
-}
+if Python:
+    print("This is the first word")
+else:
+    print("this is not the first word")
 
-print(Vmware_data["Ip Address"]["server1"])
-
-
-
+if powerful:
+    print("this is the last word")
+else:
+    print("this is not the last word")

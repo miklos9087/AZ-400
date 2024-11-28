@@ -77,7 +77,28 @@ is_greater = a < b
 print(is_equal)
 print(is_greater)
 
+#Write a Python program that performs the following operations on a given string:
 
+# Input string
+
+# text = "Python programming is fun and powerful!"
+
+# Check if the string starts with a particular word and ends with a particular word.
+
+text = "Python programming is fun and powerful!"
+
+Python = True
+powerful = True
+
+if text.startswith("Python"):
+    print("This is the first word")
+else:
+    print("this is not the first word")
+
+if text.endswith("powerful"):
+    print("this is the last word")
+else:
+    print("this is not the last word")
 
 
 
