@@ -1,14 +1,13 @@
-text = "Python programming is fun and powerful!"
+favorite_movies = ("Batman", "Rambo", "Back to the Future", "Alien", "Predator")
+#Print the entire favorite_movies tuple.
 
-Python = True
-powerful = True
+#Print the first movie in the tuple by accessing it with the index 0.
 
-if Python:
-    print("This is the first word")
-else:
-    print("this is not the first word")
+#Print the last movie in the tuple using the index -1.
 
-if powerful:
-    print("this is the last word")
-else:
-    print("this is not the last word")
+favorite_movies = ("Batman", "Rambo", "Back to the Future", "Alien", "Predator")
+
+for movies in favorite_movies:
+    print(movies)
+
+

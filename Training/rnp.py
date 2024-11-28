@@ -100,5 +100,39 @@ if text.endswith("powerful"):
 else:
     print("this is not the last word")
 
+list_num = [1,2,3,4,5]
+list_num.append(6)
+list_num.remove(3)
+list_num[1] = 12
+Note = {
+
+"name": "Alice",
+
+"age": "25",
+
+"city": "New York"
+
+}
+new_key = Note ["profession"] = "Engineer"
+update_key = Note ["name"] = "Pedro"
+del Note ["age"]
+
+
+age = int(input("Enter your age: "))
+
+has_license_input = input("Do you have a valid driver's license? (Yes/No): ")
+has_license = True if has_license_input == "Yes" or has_license_input == "yes" else False
+
+can_drive = age >= 18 and has_license
+
+wants_to_drive_input = input("Do you want to drive today? (Yes/No): ")
+wants_to_drive = True if wants_to_drive_input == "Yes" or wants_to_drive_input == "yes" else False
+
+if can_drive and wants_to_drive:
+    print("Great! Have a safe drive!")
+else:
+    print("Okay, maybe next time.")
+
+
 
 
