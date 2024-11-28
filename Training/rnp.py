@@ -68,7 +68,7 @@ else:
 
 
 
-a = 30
+a = 50
 b = 10
 
 is_equal = a == b
