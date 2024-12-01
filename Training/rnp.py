@@ -136,3 +136,12 @@ else:
 
 
 
+import re
+
+string = "Hello World"
+pattern = r"Hello"
+result = re.match(pattern, string)
+         re.search
+         re.findall
+         re.sub
+print(result)
